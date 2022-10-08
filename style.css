@@ -1,0 +1,65 @@
+body {
+	background-image: url(/assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 90% auto;
+
+}
+
+.states {
+	margin-left: 5%;
+	margin-right: auto;
+	/* width: 70%; */
+	border-collapse: collapse;
+	/* width: 100%; */
+}
+
+.states th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #f05411;
+	color: white;
+}
+
+.states td,
+.states th {
+	padding: 8px;
+}
+
+.states td {
+	
+	background-color: rgb(255, 255, 255);
+	border-bottom: 0.5px solid rgb(157, 156, 156);
+}
+
+.container>img {
+	display: block;
+	/*right: 100%; */
+	/* display: inline-block; */
+	position: relative;
+	left: 80%;
+}
+
+.event{
+	position: relative;
+	left: 5%;
+}
+
+.event>h1 {
+	margin: 5px;
+}
+
+.event>h3 {
+	margin: 5px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 2%;
+	left: 5%;
+	z-index: 9;
+}
+a{
+	text-decoration: none;
+}
